@@ -1,26 +1,50 @@
 <!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>CodePen - A Pen by  謝泫甫</title>
-  
-
-</head>
-<body>
-<!-- partial:index.partial.html -->
 <html>
 <head>
 	<title></title>
-</head>
+	<link rel="stylesheet" href="web.css">
+	
 <body>
-	<div>TodoList</div>
-	<input id="text" placeholder="Input">
-	<button id="send">add</button>
-	<div id="list"></div>
-</body>
-</html>
-<!-- partial -->
-  <script  src="./script.js"></script>
+	<div class="searchBlock">
+		<div class="fix">Enjoying Life</div>	
+		<input type="text" id="text" placeholder="Search...">
+		<button class="fix2" id="send">Search</button>
+		<div id="title">Thank Teacher</div>
+	</div>
 
+	<div class="carousel-container">
+		<div class="carousel-slide">
+			<img src="https://cdn.pixabay.com/photo/2017/06/20/22/14/men-2425121_960_720.jpg" id="lastclone" alt="">
+			<img src="https://cdn.pixabay.com/photo/2018/02/12/10/45/heart-3147976_960_720.jpg" alt="">
+			<img src="https://cdn.pixabay.com/photo/2015/10/12/14/54/person-983960_960_720.jpg" alt="">
+			<img src="https://cdn.pixabay.com/photo/2014/12/20/09/18/running-573762_960_720.jpg" alt="">
+			<img src="https://cdn.pixabay.com/photo/2016/01/19/18/01/pizza-1150031_960_720.jpg" alt="">
+			<img src="https://cdn.pixabay.com/photo/2017/06/20/22/14/men-2425121_960_720.jpg" alt="">
+			<img src="https://cdn.pixabay.com/photo/2018/02/12/10/45/heart-3147976_960_720.jpg" id="firstclone" alt="">
+		</div>		
+	</div>
+	
+		<div class="seprate">
+			<div>
+				<button id="prevBtn">Prev</button>
+				<button id="nextBtn">Next</button>
+			</div>
+			<div>
+				<p>Life have many kinds of apperances, in your life you may face lots of problems,<br>
+				   whether it is good or not don't be frustrated by these task, oppositive you may<br>
+				   take these challanges as your own experience which can make you be better, ston<br>
+				   ger than you used to be, although this may not be to easy, you finally can achi<br>
+				   eve your goal as long as you never give up. There is no standard for difficulty<br>
+				   , it just depends on what you think. Change your mind Enjoy your life. You won'<br>
+				   t have second chance in your once life.</p>
+			</div>
+				
+				
+		<div class="list" id="list"></div>
+	</div>
+	
+	</div>	
+	
+	<script src="web.js"></script>
 </body>
 </html>
